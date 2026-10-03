@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500&display=swap');
+@import 'tailwindcss';
+
+html,
+body,
+#root {
+  height: 100%;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+@theme inline {
+  --color-govt-navy: #0d2137;
+  --color-govt-navy-mid: #1a3a5c;
+  --color-govt-navy-light: #2a5298;
+  --color-govt-saffron: #e07b1a;
+  --color-govt-saffron-light: #f59e3a;
+  --color-govt-bg: #f0f3f8;
+  --color-govt-surface: #ffffff;
+  --color-govt-border: #c8d6e8;
+  --color-govt-text: #1a2636;
+  --color-govt-text-muted: #4a6080;
+  --color-govt-green: #1a6b3a;
+  --color-govt-red: #b91c1c;
+  --color-govt-amber: #b45309;
+}
+
+:root {
+  --background: #f0f3f8;
+  --foreground: #1a2636;
+  --card: #ffffff;
+  --card-foreground: #1a2636;
+  --primary: #1a3a5c;
+  --primary-foreground: #ffffff;
+  --secondary: #e8eef7;
+  --secondary-foreground: #1a3a5c;
+  --muted: #dce6f3;
+  --muted-foreground: #4a6080;
+  --accent: #e07b1a;
+  --accent-foreground: #ffffff;
+  --border: #c8d6e8;
+  --ring: #2a5298;
+  --radius: 0.25rem;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #c8d6e8; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #4a6080; }
